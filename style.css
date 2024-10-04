@@ -1,0 +1,86 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Roboto', sans-serif;
+    max-height: 100vh;
+    
+}
+
+.nav-header{
+    background-color: #1e4872;
+    color: #ffffff;
+}
+
+.card-footer .edit-btn {
+    background-color: #1e7260;
+    border-color: #1e4872;
+    color: #ffffff;
+}
+
+.card-footer .edit-btn:hover {
+    background-color: #1e4872;
+    border-color: #1e7260;
+    
+}
+
+.card-footer .btn{
+    margin-right: 5px;
+    border-radius: 8px;
+}
+
+.card-footer .delete-btn  {
+    background-color: #b11b1b;
+    border-color: #c82333;
+    color: #ffffff;
+}
+
+.card-footer .delete-btn:hover {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#property-form {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+#property-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#property-form .form-group {
+    margin-bottom: 20px;
+}
+
+#property-form .form-group label {
+    font-weight: bold;
+}
+
+#add-property-btn{
+    background-color: #1e4872;
+    border-color: #1e4872;
+    color: #ffffff;
+}
+
+#add-property-btn:hover{
+    background-color: #1e7260;
+    border-color: #1e7260;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e4872;
+}
+
